@@ -52,8 +52,8 @@ evidence gates pass.
 | 29 | Sub-Agent Architecture | ✅ COMPLETED | 27, 28 | feature/topic-29-subagents | 21 unit tests (ruff/mypy clean) | 4c13475 |
 | 30 | Sub-Agent Task Specification | ✅ COMPLETED | 29 | feature/topic-30-task-spec | 26 unit tests (ruff/mypy clean) | a661421 |
 | 31 | Dependency and Execution Plan | ✅ COMPLETED | 30 | feature/topic-31-exec-plan | 16 unit tests (ruff/mypy clean) | e1271a9 |
-| 32 | Parallel Development Plan | IN_PROGRESS | 31 | feature/topic-32-parallel-plan | 20 unit tests (ruff/mypy clean) | — |
-| 33 | Testing Strategy | NOT_STARTED | 8, 9, 27–32 | — | — | — |
+| 32 | Parallel Development Plan | ✅ COMPLETED | 31 | feature/topic-32-parallel-plan | 20 unit tests (ruff/mypy clean) | 8843ef6 |
+| 33 | Testing Strategy | IN_PROGRESS | 8, 9, 27–32 | feature/topic-33-testing-strategy | 20 unit tests (ruff/mypy clean) | — |
 | 34 | SRS Self-Validation | NOT_STARTED | 33 | — | — | — |
 | 35 | Definition of Done | NOT_STARTED | 33, 34 | — | — | — |
 | 36 | Integration and Deployment | NOT_STARTED | 10–35 | — | — | — |
