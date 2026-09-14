@@ -40,8 +40,8 @@ evidence gates pass.
 | 17 | Backtesting and Simulation | ✅ COMPLETED | 15, 16 | feature/topic-17-backtesting-simulation | 14 unit tests (ruff/mypy clean) | 071e71f |
 | 18 | Paper Trading Engine | ✅ COMPLETED | 16, 17 | feature/topic-18-paper-trading | 13 unit tests (ruff/mypy clean) | b64ad1c |
 | 19 | Decision Engine | ✅ COMPLETED | 15–18 | feature/topic-19-decision-engine | 21 unit tests (ruff/mypy clean) | 0752ff4 |
-| 20 | Monitoring and P&L Management | IN_PROGRESS | 18, 19 | feature/topic-20-monitoring | 16 unit tests (ruff/mypy clean) | — |
-| 21 | Dashboard and User Visibility | NOT_STARTED | 20 | — | — | — |
+| 20 | Monitoring and P&L Management | ✅ COMPLETED | 18, 19 | feature/topic-20-monitoring | 16 unit tests (ruff/mypy clean) | e61644c |
+| 21 | Dashboard and User Visibility | IN_PROGRESS | 20 | feature/topic-21-dashboard | 15 unit tests (ruff/mypy clean) | — |
 | 22 | Human Interaction and Notifications | NOT_STARTED | 21 | — | — | — |
 | 23 | Audit Trail and Observability | NOT_STARTED | 20–22 | — | — | — |
 | 24 | Error Detection and Recovery | NOT_STARTED | 23 | — | — | — |
