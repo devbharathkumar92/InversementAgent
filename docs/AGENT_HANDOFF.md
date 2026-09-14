@@ -24,7 +24,8 @@ Read these in order of authority before implementing any topic:
 4. `prompts/PROMPT_00_PROJECT_BOOTSTRAP.md` and
    `PROMPT_00_PROJECT_BOOTSTRAP.md` (root, detailed) — bootstrap specs
 5. `docs/ARCHITECTURE.md` — derived architecture
-6. `docs/DECISIONS.md` — decisions made so far
+6. `docs/TECHNICAL_PLAN.md` — technical implementation roadmap (phases, DoD, gates)
+7. `docs/DECISIONS.md` — decisions made so far
 
 ## What Has Been Completed
 
