@@ -26,8 +26,8 @@ evidence gates pass.
 | 03 | Proof of Value Definition | ✅ COMPLETED | 02 | feature/topic-03-pov-definition | 18 unit tests (ruff/mypy clean) | 96f4e6a |
 | 04 | System Scope and Boundaries | ✅ COMPLETED | 02, 03 | feature/topic-04-system-scope | 21 unit tests (ruff/mypy clean) | 00103c8 |
 | 05 | System Principles and Non-Negotiable Rules | ✅ COMPLETED | 04 | feature/topic-05-system-principles | 20 unit tests (ruff/mypy clean) | 214c02a |
-| 06 | High-Level System Architecture | IN_PROGRESS | 05 | feature/topic-06-architecture | 20 unit tests (ruff/mypy clean) | — |
-| 07 | Technology Stack and Technical Feasibility | NOT_STARTED | 06 | — | — | — |
+| 06 | High-Level System Architecture | ✅ COMPLETED | 05 | feature/topic-06-architecture | 20 unit tests (ruff/mypy clean) | 93df122 |
+| 07 | Technology Stack and Technical Feasibility | IN_PROGRESS | 06 | feature/topic-07-technology-stack | 15 unit tests (ruff/mypy clean) | — |
 | 08 | Agent Determinism and Specification Completeness | NOT_STARTED | 06, 07 | — | — | — |
 | 09 | System Execution Lifecycle | NOT_STARTED | 06–08 | — | — | — |
 | 10 | Data Acquisition Layer | NOT_STARTED | 09 | — | — | — |
