@@ -51,8 +51,8 @@ evidence gates pass.
 | 28 | Requirement Traceability | ✅ COMPLETED | 27 | feature/topic-28-traceability | 19 unit tests (ruff/mypy clean) | 0829cef |
 | 29 | Sub-Agent Architecture | ✅ COMPLETED | 27, 28 | feature/topic-29-subagents | 21 unit tests (ruff/mypy clean) | 4c13475 |
 | 30 | Sub-Agent Task Specification | ✅ COMPLETED | 29 | feature/topic-30-task-spec | 26 unit tests (ruff/mypy clean) | a661421 |
-| 31 | Dependency and Execution Plan | IN_PROGRESS | 30 | feature/topic-31-exec-plan | 16 unit tests (ruff/mypy clean) | — |
-| 32 | Parallel Development Plan | NOT_STARTED | 31 | — | — | — |
+| 31 | Dependency and Execution Plan | ✅ COMPLETED | 30 | feature/topic-31-exec-plan | 16 unit tests (ruff/mypy clean) | e1271a9 |
+| 32 | Parallel Development Plan | IN_PROGRESS | 31 | feature/topic-32-parallel-plan | 20 unit tests (ruff/mypy clean) | — |
 | 33 | Testing Strategy | NOT_STARTED | 8, 9, 27–32 | — | — | — |
 | 34 | SRS Self-Validation | NOT_STARTED | 33 | — | — | — |
 | 35 | Definition of Done | NOT_STARTED | 33, 34 | — | — | — |
