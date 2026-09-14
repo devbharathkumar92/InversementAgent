@@ -37,7 +37,9 @@ Read these in order of authority before implementing any topic:
 - [x] Topic decomposition + dependency graph created
 - [x] `PROJECT_STATUS.md` created
 - [x] Testing infrastructure scaffolded (`pyproject.toml`, `tests/`)
-- [x] CI workflow added (GitHub Actions)
+- [x] CI workflow template added under `ci/workflows/`
+  (activation steps in `ci/workflows/README.md`; needs a token with `workflow`
+  scope or GitHub UI to activate)
 - [x] `.env.example`, `.gitignore` created
 
 ## What Has NOT Been Done (planned work)
