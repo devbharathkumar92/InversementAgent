@@ -43,8 +43,8 @@ evidence gates pass.
 | 20 | Monitoring and P&L Management | ✅ COMPLETED | 18, 19 | feature/topic-20-monitoring | 16 unit tests (ruff/mypy clean) | e61644c |
 | 21 | Dashboard and User Visibility | ✅ COMPLETED | 20 | feature/topic-21-dashboard | 15 unit tests (ruff/mypy clean) | 1d1389f |
 | 22 | Human Interaction and Notifications | ✅ COMPLETED | 21 | feature/topic-22-interactions | 15 unit tests (ruff/mypy clean) | c4a58f8 |
-| 23 | Audit Trail and Observability | IN_PROGRESS | 20–22 | feature/topic-23-audit | 14 unit tests (ruff/mypy clean) | — |
-| 24 | Error Detection and Recovery | NOT_STARTED | 23 | — | — | — |
+| 23 | Audit Trail and Observability | ✅ COMPLETED | 20–22 | feature/topic-23-audit | 14 unit tests (ruff/mypy clean) | 25f5e15 |
+| 24 | Error Detection and Recovery | IN_PROGRESS | 23 | feature/topic-24-recovery | 16 unit tests (ruff/mypy clean) | — |
 | 25 | Self-Evaluation | NOT_STARTED | 23, 24 | — | — | — |
 | 26 | Self-Improvement and Change Management | NOT_STARTED | 25 | — | — | — |
 | 27 | SRS Version Control and Governance | NOT_STARTED | 1–26 | — | — | — |
