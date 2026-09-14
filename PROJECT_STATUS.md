@@ -28,8 +28,8 @@ evidence gates pass.
 | 05 | System Principles and Non-Negotiable Rules | ✅ COMPLETED | 04 | feature/topic-05-system-principles | 20 unit tests (ruff/mypy clean) | 214c02a |
 | 06 | High-Level System Architecture | ✅ COMPLETED | 05 | feature/topic-06-architecture | 20 unit tests (ruff/mypy clean) | 93df122 |
 | 07 | Technology Stack and Technical Feasibility | ✅ COMPLETED | 06 | feature/topic-07-technology-stack | 15 unit tests (ruff/mypy clean) | 9843874 |
-| 08 | Agent Determinism and Specification Completeness | IN_PROGRESS | 06, 07 | feature/topic-08-determinism | 17 unit tests (ruff/mypy clean) | — |
-| 09 | System Execution Lifecycle | NOT_STARTED | 06–08 | — | — | — |
+| 08 | Agent Determinism and Specification Completeness | ✅ COMPLETED | 06, 07 | feature/topic-08-determinism | 17 unit tests (ruff/mypy clean) | d34a1fb |
+| 09 | System Execution Lifecycle | IN_PROGRESS | 06–08 | feature/topic-09-lifecycle | 20 unit tests (ruff/mypy clean) | — |
 | 10 | Data Acquisition Layer | NOT_STARTED | 09 | — | — | — |
 | 11 | Data Validation and Quality Layer | NOT_STARTED | 10 | — | — | — |
 | 12 | Opportunity Discovery Engine | NOT_STARTED | 10, 11 | — | — | — |
