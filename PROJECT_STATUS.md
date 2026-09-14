@@ -33,8 +33,8 @@ evidence gates pass.
 | 10 | Data Acquisition Layer | ✅ COMPLETED | 09 | feature/topic-10-data-acquisition | 17 unit tests (ruff/mypy clean) | ff43844 |
 | 11 | Data Validation and Quality Layer | ✅ COMPLETED | 10 | feature/topic-11-data-quality | 24 unit tests (ruff/mypy clean) | 08f9583 |
 | 12 | Opportunity Discovery Engine | ✅ COMPLETED | 10, 11 | feature/topic-12-opportunity-discovery | 21 unit tests (ruff/mypy clean) | d805169 |
-| 13 | Market Analysis Engine | IN_PROGRESS | 11, 12 | feature/topic-13-market-analysis | 23 unit tests (ruff/mypy clean) | — |
-| 14 | Opportunity Scoring Engine | NOT_STARTED | 12, 13 | — | — | — |
+| 13 | Market Analysis Engine | ✅ COMPLETED | 11, 12 | feature/topic-13-market-analysis | 23 unit tests (ruff/mypy clean) | fcb3deb |
+| 14 | Opportunity Scoring Engine | IN_PROGRESS | 12, 13 | feature/topic-14-opportunity-scoring | 17 unit tests (ruff/mypy clean) | — |
 | 15 | Strategy Engine | NOT_STARTED | 13, 14 | — | — | — |
 | 16 | Risk and Safety Engine | NOT_STARTED | 11, 15 | — | — | — |
 | 17 | Backtesting and Simulation | NOT_STARTED | 15, 16 | — | — | — |
