@@ -59,8 +59,8 @@ evidence gates pass.
 | 36 | Integration and Deployment | ✅ COMPLETED | 10–35 | feature/topic-36-integration-deployment | 19 unit tests (ruff/mypy clean) | 9d5d892 |
 | 37 | Security and Secrets Management | ✅ COMPLETED | 36 | feature/topic-37-security | 19 unit tests (ruff/mypy clean) | 818406c |
 | 38 | PoV Release Criteria | ✅ COMPLETED | 36, 37 | feature/topic-38-pov-release | 19 unit tests (ruff/mypy clean) | 8a0dc72 |
-| 39 | Future Expansion Framework | IN_PROGRESS | 38 | feature/topic-39-future-expansion | 17 unit tests (ruff/mypy clean) | — |
-| 40 | Appendices | NOT_STARTED | all | — | — | — |
+| 39 | Future Expansion Framework | ✅ COMPLETED | 38 | feature/topic-39-future-expansion | 17 unit tests (ruff/mypy clean) | 2c31632 |
+| 40 | Appendices | ✅ COMPLETED | all | feature/topic-40-appendices | 15 unit tests + 126-id registry (ruff/mypy clean) | — |
 
 ---
 
