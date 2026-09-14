@@ -54,8 +54,8 @@ evidence gates pass.
 | 31 | Dependency and Execution Plan | ✅ COMPLETED | 30 | feature/topic-31-exec-plan | 16 unit tests (ruff/mypy clean) | e1271a9 |
 | 32 | Parallel Development Plan | ✅ COMPLETED | 31 | feature/topic-32-parallel-plan | 20 unit tests (ruff/mypy clean) | 8843ef6 |
 | 33 | Testing Strategy | ✅ COMPLETED | 8, 9, 27–32 | feature/topic-33-testing-strategy | 20 unit tests (ruff/mypy clean) | f0c2596 |
-| 34 | SRS Self-Validation | IN_PROGRESS | 33 | feature/topic-34-self-validation | 20 unit tests (ruff/mypy clean) | — |
-| 35 | Definition of Done | NOT_STARTED | 33, 34 | — | — | — |
+| 34 | SRS Self-Validation | ✅ COMPLETED | 33 | feature/topic-34-self-validation | 20 unit tests (ruff/mypy clean) | 6c9d6ec |
+| 35 | Definition of Done | IN_PROGRESS | 33, 34 | feature/topic-35-dod | 17 unit tests (ruff/mypy clean) | — |
 | 36 | Integration and Deployment | NOT_STARTED | 10–35 | — | — | — |
 | 37 | Security and Secrets Management | NOT_STARTED | 36 | — | — | — |
 | 38 | PoV Release Criteria | NOT_STARTED | 36, 37 | — | — | — |
