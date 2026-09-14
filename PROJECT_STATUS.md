@@ -37,8 +37,8 @@ evidence gates pass.
 | 14 | Opportunity Scoring Engine | ✅ COMPLETED | 12, 13 | feature/topic-14-opportunity-scoring | 17 unit tests (ruff/mypy clean) | 1e72184 |
 | 15 | Strategy Engine | ✅ COMPLETED | 13, 14 | feature/topic-15-strategy-engine | 18 unit tests (ruff/mypy clean) | 1e7f123 |
 | 16 | Risk and Safety Engine | ✅ COMPLETED | 11, 15 | feature/topic-16-risk-safety | 18 unit tests (ruff/mypy clean) | 3c30ef4 |
-| 17 | Backtesting and Simulation | IN_PROGRESS | 15, 16 | feature/topic-17-backtesting-simulation | 14 unit tests (ruff/mypy clean) | — |
-| 18 | Paper Trading Engine | NOT_STARTED | 16, 17 | — | — | — |
+| 17 | Backtesting and Simulation | ✅ COMPLETED | 15, 16 | feature/topic-17-backtesting-simulation | 14 unit tests (ruff/mypy clean) | 071e71f |
+| 18 | Paper Trading Engine | IN_PROGRESS | 16, 17 | feature/topic-18-paper-trading | 13 unit tests (ruff/mypy clean) | — |
 | 19 | Decision Engine | NOT_STARTED | 15–18 | — | — | — |
 | 20 | Monitoring and P&L Management | NOT_STARTED | 18, 19 | — | — | — |
 | 21 | Dashboard and User Visibility | NOT_STARTED | 20 | — | — | — |
