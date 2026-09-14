@@ -45,8 +45,8 @@ evidence gates pass.
 | 22 | Human Interaction and Notifications | ✅ COMPLETED | 21 | feature/topic-22-interactions | 15 unit tests (ruff/mypy clean) | c4a58f8 |
 | 23 | Audit Trail and Observability | ✅ COMPLETED | 20–22 | feature/topic-23-audit | 14 unit tests (ruff/mypy clean) | 25f5e15 |
 | 24 | Error Detection and Recovery | ✅ COMPLETED | 23 | feature/topic-24-recovery | 16 unit tests (ruff/mypy clean) | 40a492f |
-| 25 | Self-Evaluation | IN_PROGRESS | 23, 24 | feature/topic-25-self-eval | 15 unit tests (ruff/mypy clean) | — |
-| 26 | Self-Improvement and Change Management | NOT_STARTED | 25 | — | — | — |
+| 25 | Self-Evaluation | ✅ COMPLETED | 23, 24 | feature/topic-25-self-eval | 15 unit tests (ruff/mypy clean) | 06cada0 |
+| 26 | Self-Improvement and Change Management | IN_PROGRESS | 25 | feature/topic-26-improvement | 19 unit tests (ruff/mypy clean) | — |
 | 27 | SRS Version Control and Governance | NOT_STARTED | 1–26 | — | — | — |
 | 28 | Requirement Traceability | NOT_STARTED | 27 | — | — | — |
 | 29 | Sub-Agent Architecture | NOT_STARTED | 27, 28 | — | — | — |
