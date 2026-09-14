@@ -56,8 +56,8 @@ evidence gates pass.
 | 33 | Testing Strategy | ✅ COMPLETED | 8, 9, 27–32 | feature/topic-33-testing-strategy | 20 unit tests (ruff/mypy clean) | f0c2596 |
 | 34 | SRS Self-Validation | ✅ COMPLETED | 33 | feature/topic-34-self-validation | 20 unit tests (ruff/mypy clean) | 6c9d6ec |
 | 35 | Definition of Done | ✅ COMPLETED | 33, 34 | feature/topic-35-dod | 17 unit tests (ruff/mypy clean) | d9e8ef9 |
-| 36 | Integration and Deployment | IN_PROGRESS | 10–35 | feature/topic-36-integration-deployment | 19 unit tests (ruff/mypy clean) | — |
-| 37 | Security and Secrets Management | NOT_STARTED | 36 | — | — | — |
+| 36 | Integration and Deployment | ✅ COMPLETED | 10–35 | feature/topic-36-integration-deployment | 19 unit tests (ruff/mypy clean) | 9d5d892 |
+| 37 | Security and Secrets Management | IN_PROGRESS | 36 | feature/topic-37-security | 19 unit tests (ruff/mypy clean) | — |
 | 38 | PoV Release Criteria | NOT_STARTED | 36, 37 | — | — | — |
 | 39 | Future Expansion Framework | NOT_STARTED | 38 | — | — | — |
 | 40 | Appendices | NOT_STARTED | all | — | — | — |
