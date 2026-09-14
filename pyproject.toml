@@ -1,0 +1,87 @@
+[project]
+name = "inversement-agent"
+version = "0.1.0"
+description = "AI Investment Opportunity Agent — India/INR Proof of Value (multi-agent bounded system)."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "Proprietary" }
+authors = [{ name = "InversementAgent Project" }]
+dependencies = [
+    # Core
+    "pydantic>=2.5",
+    "pydantic-settings>=2.1",
+    # API layer
+    "fastapi>=0.109",
+    "uvicorn[standard]>=0.27",
+    # Data / persistence
+    "sqlalchemy>=2.0",
+    "psycopg2-binary>=2.9",
+    "redis>=5.0",
+    # Task execution / messages
+    "celery>=5.3",
+    # Data analysis & acquisition
+    "pandas>=2.1",
+    "numpy>=1.26",
+    "requests>=2.31",
+    "beautifulsoup4>=4.12",
+    # OpenAI-compatible LLM SDK (provider chosen during Topic 7)
+    # "openai",
+    # Observability
+    # "opentelemetry-api", "opentelemetry-sdk",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4",
+    "pytest-cov>=4.1",
+    "pytest-asyncio>=0.23",
+    "httpx>=0.26",
+    "ruff>=0.1",
+    "mypy>=1.7",
+    "pre-commit>=3.5",
+]
+data = [
+    "yfinance>=0.2",
+    "ta>=0.11",
+    "ccxt>=4.2",  # if an exchange SDK is authorized in Topic 7
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-ra --strict-markers"
+markers = [
+    "unit: unit tests (no external services)",
+    "integration: integration tests (may touch local services)", 
+    "e2e: end-to-end tests",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+ignore = []
+
+[tool.ruff.format]
+quote-style = "double"
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+
+[tool.coverage.run]
+source = ["src"]
+omit = ["src/**/__main__.py"]
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true

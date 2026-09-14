@@ -1,0 +1,68 @@
+# --- Secrets & credentials ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials.json
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.pyc
+.idea/
+.vscode/
+
+# --- Data (processed/raw artifacts) ---
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/validated/*
+!data/validated/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+data/evidences/*
+!data/evidences/.gitkeep
+*.csv
+*.parquet
+*.feather
+*.sqlite
+*.db
+*.db3
+
+# --- Logs & runtime ---
+*.log
+logs/
+tmp/
+*.pid
+*.socket
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+*.swp
+
+# --- Large binaries ---
+# The authoritative SRS is versioned as markdown under srs/topics/.
+# Do not commit the source PDF, ZIP archives, or other large binaries.
+*.zip
+*.pdf

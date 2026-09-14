@@ -1,0 +1,45 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    name: Lint, Type-check & Test
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[dev]"
+
+      - name: Lint (ruff)
+        run: ruff check src tests scripts
+
+      - name: Format check (ruff)
+        run: ruff format --check src tests scripts
+
+      - name: Type check (mypy)
+        run: mypy src
+
+      - name: Tests (pytest)
+        run: pytest -m "unit" --cov=src --cov-report=term-missing
+
+      - name: Verify no secrets in repo
+        run: |
+          if grep -rE "(github_pat_|ghp_|sk-[A-Za-z0-9]{20})" --include="*.py" --include="*.md" --include="*.yml" --include="*.yaml" --include="*.toml" . | grep -v ".git/"; then
+            echo "Possible secret found in repository!"; exit 1
+          fi
