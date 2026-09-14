@@ -21,7 +21,7 @@ evidence gates pass.
 
 | Topic | Name | Status | Dependencies | Branch | Verification | Commit |
 |---|---|---|---|---|---|---|
-| 01 | Document Control and Versioning | NOT_STARTED | — | — | — | — |
+| 01 | Document Control and Versioning | IN_PROGRESS | — | feature/topic-01-document-control | 65 unit tests (ruff/mypy clean) | — |
 | 02 | Core Goal and Mission | NOT_STARTED | 01 | — | — | — |
 | 03 | Proof of Value Definition | NOT_STARTED | 02 | — | — | — |
 | 04 | System Scope and Boundaries | NOT_STARTED | 02, 03 | — | — | — |
