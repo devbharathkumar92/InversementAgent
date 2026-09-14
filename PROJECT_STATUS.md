@@ -58,8 +58,8 @@ evidence gates pass.
 | 35 | Definition of Done | ✅ COMPLETED | 33, 34 | feature/topic-35-dod | 17 unit tests (ruff/mypy clean) | d9e8ef9 |
 | 36 | Integration and Deployment | ✅ COMPLETED | 10–35 | feature/topic-36-integration-deployment | 19 unit tests (ruff/mypy clean) | 9d5d892 |
 | 37 | Security and Secrets Management | ✅ COMPLETED | 36 | feature/topic-37-security | 19 unit tests (ruff/mypy clean) | 818406c |
-| 38 | PoV Release Criteria | IN_PROGRESS | 36, 37 | feature/topic-38-pov-release | 19 unit tests (ruff/mypy clean) | — |
-| 39 | Future Expansion Framework | NOT_STARTED | 38 | — | — | — |
+| 38 | PoV Release Criteria | ✅ COMPLETED | 36, 37 | feature/topic-38-pov-release | 19 unit tests (ruff/mypy clean) | 8a0dc72 |
+| 39 | Future Expansion Framework | IN_PROGRESS | 38 | feature/topic-39-future-expansion | 17 unit tests (ruff/mypy clean) | — |
 | 40 | Appendices | NOT_STARTED | all | — | — | — |
 
 ---
