@@ -32,8 +32,8 @@ evidence gates pass.
 | 09 | System Execution Lifecycle | ✅ COMPLETED | 06–08 | feature/topic-09-lifecycle | 20 unit tests (ruff/mypy clean) | c7c5330 |
 | 10 | Data Acquisition Layer | ✅ COMPLETED | 09 | feature/topic-10-data-acquisition | 17 unit tests (ruff/mypy clean) | ff43844 |
 | 11 | Data Validation and Quality Layer | ✅ COMPLETED | 10 | feature/topic-11-data-quality | 24 unit tests (ruff/mypy clean) | 08f9583 |
-| 12 | Opportunity Discovery Engine | IN_PROGRESS | 10, 11 | feature/topic-12-opportunity-discovery | 21 unit tests (ruff/mypy clean) | — |
-| 13 | Market Analysis Engine | NOT_STARTED | 11, 12 | — | — | — |
+| 12 | Opportunity Discovery Engine | ✅ COMPLETED | 10, 11 | feature/topic-12-opportunity-discovery | 21 unit tests (ruff/mypy clean) | d805169 |
+| 13 | Market Analysis Engine | IN_PROGRESS | 11, 12 | feature/topic-13-market-analysis | 23 unit tests (ruff/mypy clean) | — |
 | 14 | Opportunity Scoring Engine | NOT_STARTED | 12, 13 | — | — | — |
 | 15 | Strategy Engine | NOT_STARTED | 13, 14 | — | — | — |
 | 16 | Risk and Safety Engine | NOT_STARTED | 11, 15 | — | — | — |
