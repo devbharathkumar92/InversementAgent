@@ -47,8 +47,8 @@ evidence gates pass.
 | 24 | Error Detection and Recovery | ✅ COMPLETED | 23 | feature/topic-24-recovery | 16 unit tests (ruff/mypy clean) | 40a492f |
 | 25 | Self-Evaluation | ✅ COMPLETED | 23, 24 | feature/topic-25-self-eval | 15 unit tests (ruff/mypy clean) | 06cada0 |
 | 26 | Self-Improvement and Change Management | ✅ COMPLETED | 25 | feature/topic-26-improvement | 19 unit tests (ruff/mypy clean) | 4bf5355 |
-| 27 | SRS Version Control and Governance | IN_PROGRESS | 1–26 | feature/topic-27-governance | 20 unit tests (ruff/mypy clean) | — |
-| 28 | Requirement Traceability | NOT_STARTED | 27 | — | — | — |
+| 27 | SRS Version Control and Governance | ✅ COMPLETED | 1–26 | feature/topic-27-governance | 20 unit tests (ruff/mypy clean) | 726db1e |
+| 28 | Requirement Traceability | IN_PROGRESS | 27 | feature/topic-28-traceability | 19 unit tests (ruff/mypy clean) | — |
 | 29 | Sub-Agent Architecture | NOT_STARTED | 27, 28 | — | — | — |
 | 30 | Sub-Agent Task Specification | NOT_STARTED | 29 | — | — | — |
 | 31 | Dependency and Execution Plan | NOT_STARTED | 30 | — | — | — |
