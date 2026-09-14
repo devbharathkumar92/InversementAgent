@@ -24,8 +24,8 @@ evidence gates pass.
 | 01 | Document Control and Versioning | ✅ COMPLETED | — | feature/topic-01-document-control | 65 unit tests (ruff/mypy clean) | 5860554 |
 | 02 | Core Goal and Mission | ✅ COMPLETED | 01 | feature/topic-02-core-goal-mission | 26 unit tests (ruff/mypy clean) | 40e43da |
 | 03 | Proof of Value Definition | ✅ COMPLETED | 02 | feature/topic-03-pov-definition | 18 unit tests (ruff/mypy clean) | 96f4e6a |
-| 04 | System Scope and Boundaries | IN_PROGRESS | 02, 03 | feature/topic-04-system-scope | 21 unit tests (ruff/mypy clean) | — |
-| 05 | System Principles and Non-Negotiable Rules | NOT_STARTED | 04 | — | — | — |
+| 04 | System Scope and Boundaries | ✅ COMPLETED | 02, 03 | feature/topic-04-system-scope | 21 unit tests (ruff/mypy clean) | 00103c8 |
+| 05 | System Principles and Non-Negotiable Rules | IN_PROGRESS | 04 | feature/topic-05-system-principles | 20 unit tests (ruff/mypy clean) | — |
 | 06 | High-Level System Architecture | NOT_STARTED | 05 | — | — | — |
 | 07 | Technology Stack and Technical Feasibility | NOT_STARTED | 06 | — | — | — |
 | 08 | Agent Determinism and Specification Completeness | NOT_STARTED | 06, 07 | — | — | — |
