@@ -22,8 +22,8 @@ evidence gates pass.
 | Topic | Name | Status | Dependencies | Branch | Verification | Commit |
 |---|---|---|---|---|---|---|
 | 01 | Document Control and Versioning | ✅ COMPLETED | — | feature/topic-01-document-control | 65 unit tests (ruff/mypy clean) | 5860554 |
-| 02 | Core Goal and Mission | IN_PROGRESS | 01 | feature/topic-02-core-goal-mission | 26 unit tests (ruff/mypy clean) | — |
-| 03 | Proof of Value Definition | NOT_STARTED | 02 | — | — | — |
+| 02 | Core Goal and Mission | ✅ COMPLETED | 01 | feature/topic-02-core-goal-mission | 26 unit tests (ruff/mypy clean) | 40e43da |
+| 03 | Proof of Value Definition | IN_PROGRESS | 02 | feature/topic-03-pov-definition | 18 unit tests (ruff/mypy clean) | — |
 | 04 | System Scope and Boundaries | NOT_STARTED | 02, 03 | — | — | — |
 | 05 | System Principles and Non-Negotiable Rules | NOT_STARTED | 04 | — | — | — |
 | 06 | High-Level System Architecture | NOT_STARTED | 05 | — | — | — |
