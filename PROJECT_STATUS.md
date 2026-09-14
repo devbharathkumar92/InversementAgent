@@ -29,8 +29,8 @@ evidence gates pass.
 | 06 | High-Level System Architecture | ✅ COMPLETED | 05 | feature/topic-06-architecture | 20 unit tests (ruff/mypy clean) | 93df122 |
 | 07 | Technology Stack and Technical Feasibility | ✅ COMPLETED | 06 | feature/topic-07-technology-stack | 15 unit tests (ruff/mypy clean) | 9843874 |
 | 08 | Agent Determinism and Specification Completeness | ✅ COMPLETED | 06, 07 | feature/topic-08-determinism | 17 unit tests (ruff/mypy clean) | d34a1fb |
-| 09 | System Execution Lifecycle | IN_PROGRESS | 06–08 | feature/topic-09-lifecycle | 20 unit tests (ruff/mypy clean) | — |
-| 10 | Data Acquisition Layer | NOT_STARTED | 09 | — | — | — |
+| 09 | System Execution Lifecycle | ✅ COMPLETED | 06–08 | feature/topic-09-lifecycle | 20 unit tests (ruff/mypy clean) | c7c5330 |
+| 10 | Data Acquisition Layer | IN_PROGRESS | 09 | feature/topic-10-data-acquisition | 17 unit tests (ruff/mypy clean) | — |
 | 11 | Data Validation and Quality Layer | NOT_STARTED | 10 | — | — | — |
 | 12 | Opportunity Discovery Engine | NOT_STARTED | 10, 11 | — | — | — |
 | 13 | Market Analysis Engine | NOT_STARTED | 11, 12 | — | — | — |
