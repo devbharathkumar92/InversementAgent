@@ -12,13 +12,16 @@
 
 | Area | Status |
 |---|---|
-| Repository bootstrap | ✅ Committed on `main` (`a9e1a0a`) |
+| Repository bootstrap | ✅ Committed on `main` |
 | SRS access model | ✅ `SRS.md` + `srs/topics/TOPIC_01..40.md` |
 | Governance | ✅ `MASTER.md` present and unmodified |
 | Prompt infrastructure | ✅ `prompts/` (PROMPT_00 + TOPIC_01..40 + templates) |
-| Project structure | ✅ `src/` layered skeleton matching SRS Topic 6 layers |
+| Project structure | ✅ `src/` layered tree matching SRS Topic 6 layers |
 | Docs | ✅ `docs/ARCHITECTURE.md`, `DEVELOPMENT.md`, `TESTING.md`, `DECISIONS.md`, `AGENT_HANDOFF.md`, `TOPIC_DEPENDENCY_GRAPH.md` |
-| Validation | ✅ `ruff` clean, `mypy` clean (40 src files), `pytest` 1 passed |
+| Topic implementation | ✅ **All 40 topics `COMPLETED`** (see `PROJECT_STATUS.md`) |
+| Requirement registry | ✅ 1,758 IDs across 40 topics, verified 1:1 against `srs/` |
+| Evidence generator | ✅ `src/common/evidence/` + `scripts/gen_evidence.py` → `data/evidences/evidence.json` |
+| Validation | ✅ `ruff` clean, `ruff format` clean, `mypy` clean (136 src files), `pytest` **799 passed** |
 | CI | 🕓 Workflow template in `ci/workflows/ci.yml.example` (activation pending) |
 
 **Source-of-truth rule (MASTER.md §2/§3):** every implementation step must read
@@ -69,15 +72,18 @@ Rules (MASTER.md §8–§10, §29):
 The SRS is organized into seven phases. Each phase ends at a defined baseline
 gate where tests and evidence must be green before the next phase begins.
 
-| Phase | Topics | Theme | Exit baseline gate |
-|---|---|---|---|
-| P1 | 1–5 | Foundation | Scope/goal/principles baseline documented and approved |
-| P2 | 6–9 | Architecture & Technical Specification | Architecture baseline + technology baseline frozen |
-| P3 | 10–15 | Data & Intelligence | Data pipeline + discovery/analysis/scoring/strategy validated |
-| P4 | 16–20 | Trading/Investment Simulation & Safety | Risk-gated backtest/paper-trade loop validated |
-| P5 | 21–26 | User Visibility & Reliability | Dashboard + monitoring + observability operational |
-| P6 | 27–32 | Multi-Agent Development | Sub-agent architecture, task spec, execution/branching plans |
-| P7 | 33–40 | QA & Release | SRS-validation, SoD, integration, security, release criteria |
+| Phase | Topics | Theme | Exit baseline gate | Status |
+|---|---|---|---|---|
+| P1 | 1–5 | Foundation | Scope/goal/principles baseline documented and approved | ✅ COMPLETE |
+| P2 | 6–9 | Architecture & Technical Specification | Architecture baseline + technology baseline frozen | ✅ COMPLETE |
+| P3 | 10–15 | Data & Intelligence | Data pipeline + discovery/analysis/scoring/strategy validated | ✅ COMPLETE |
+| P4 | 16–20 | Trading/Investment Simulation & Safety | Risk-gated backtest/paper-trade loop validated | ✅ COMPLETE |
+| P5 | 21–26 | User Visibility & Reliability | Dashboard + monitoring + observability operational | ✅ COMPLETE |
+| P6 | 27–32 | Multi-Agent Development | Sub-agent architecture, task spec, execution/branching plans | ✅ COMPLETE |
+| P7 | 33–40 | QA & Release | SRS-validation, SoD, integration, security, release criteria | ✅ COMPLETE |
+
+All seven phases are complete; all 40 topics are `COMPLETED` and merged to
+`main` (see `PROJECT_STATUS.md`).
 
 ---
 

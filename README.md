@@ -141,5 +141,8 @@ See [`docs/TOPIC_DEPENDENCY_GRAPH.md`](./docs/TOPIC_DEPENDENCY_GRAPH.md) and
 ## Status
 
 - **Bootstrap:** COMPLETE (initial commit on the default branch).
-- **Topics:** all 40 `NOT_STARTED` (see [`PROJECT_STATUS.md`](./PROJECT_STATUS.md)).
-- **Next task:** `TOPIC_01` — Document Control and Versioning.
+- **Topics:** all 40 `COMPLETED` (see [`PROJECT_STATUS.md`](./PROJECT_STATUS.md)).
+- **Next task:** none — the frozen SRS topic set is fully implemented and
+  validated (799 unit tests; ruff/mypy clean). Registry verified 1:1 against
+  the frozen hierarchy (1,758 requirement IDs); regenerate traceability
+  evidence with `python scripts/gen_evidence.py`.
