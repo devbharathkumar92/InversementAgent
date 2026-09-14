@@ -67,11 +67,9 @@ class TestDependencyVerification:
     """REQ 9.7 — dependencies are checked before execution."""
 
     def test_required_dependencies_registered(self):
-        eng = make_engine()
         assert check_dependencies(["data-source", "model-registry"], ["data-source"]) is False
 
     def test_all_dependencies_satisfied(self):
-        eng = make_engine()
         assert check_dependencies(["x", "y"], ["x", "y"]) is True
 
     def test_missing_dependency_fails(self):
@@ -131,7 +129,6 @@ class TestProgress:
     """REQ 9.17 — progress is computed against task totals."""
 
     def test_zero_progress(self):
-        eng = make_engine()
         assert compute_progress(done=0, total=10) == 0.0
 
     def test_half_progress(self):
