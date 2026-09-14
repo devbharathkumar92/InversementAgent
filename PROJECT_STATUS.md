@@ -35,8 +35,8 @@ evidence gates pass.
 | 12 | Opportunity Discovery Engine | ✅ COMPLETED | 10, 11 | feature/topic-12-opportunity-discovery | 21 unit tests (ruff/mypy clean) | d805169 |
 | 13 | Market Analysis Engine | ✅ COMPLETED | 11, 12 | feature/topic-13-market-analysis | 23 unit tests (ruff/mypy clean) | fcb3deb |
 | 14 | Opportunity Scoring Engine | ✅ COMPLETED | 12, 13 | feature/topic-14-opportunity-scoring | 17 unit tests (ruff/mypy clean) | 1e72184 |
-| 15 | Strategy Engine | IN_PROGRESS | 13, 14 | feature/topic-15-strategy-engine | 18 unit tests (ruff/mypy clean) | — |
-| 16 | Risk and Safety Engine | NOT_STARTED | 11, 15 | — | — | — |
+| 15 | Strategy Engine | ✅ COMPLETED | 13, 14 | feature/topic-15-strategy-engine | 18 unit tests (ruff/mypy clean) | 1e7f123 |
+| 16 | Risk and Safety Engine | IN_PROGRESS | 11, 15 | feature/topic-16-risk-safety | 18 unit tests (ruff/mypy clean) | — |
 | 17 | Backtesting and Simulation | NOT_STARTED | 15, 16 | — | — | — |
 | 18 | Paper Trading Engine | NOT_STARTED | 16, 17 | — | — | — |
 | 19 | Decision Engine | NOT_STARTED | 15–18 | — | — | — |
