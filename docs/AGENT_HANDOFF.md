@@ -68,7 +68,10 @@ Read these in order of authority before implementing any topic:
 
 ## Open Blockers
 
-None.
+- Issue #1 ("add this file on this repo for reference this is Whole SRS document
+  for this repo") is addressed by the commit on `main`, but could not be
+  auto-closed via API: the repository PAT is fine-grained and scoped to Contents
+  only (no Issues permission). Close it manually (or with an Issues-write token).
 
 ---
 
