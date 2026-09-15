@@ -45,7 +45,7 @@ src/
 ├── execution_layer/     # broker adapters, order management (gated)
 ├── observability_layer/ # logging, metrics, dashboard, notifications (20–24)
 ├── security_layer/      # auth, secret management, audit (37)
-├── task_runtime/        # state machine, queue, config (31)
+├── task_runtime/        # state machine, orchestration, queue, config (9/31)
 ├── api/v1/              # REST API (FastAPI)
 ├── worker/celery_app/   # Celery tasks (background monitoring)
 └── common/              # shared helpers, contracts, exceptions

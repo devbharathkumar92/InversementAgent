@@ -22,6 +22,7 @@ implemented incrementally as **Topics 1–40**.
 | [`MASTER.md`](./MASTER.md) | Implementation-governance operating rules for autonomous agents |
 | [`PROJECT_STATUS.md`](./PROJECT_STATUS.md) | Per-topic implementation status |
 | [`docs/ARCHITECTURE.md`](./docs/ARCHITECTURE.md) | Derived system architecture |
+| [`docs/RUNTIME.md`](./docs/RUNTIME.md) | Executable runtime orchestration (synthetic/paper path) |
 | [`docs/AUTONOMOUS_WORKFLOW.md`](./docs/AUTONOMOUS_WORKFLOW.md) | How every topic is implemented |
 | [`docs/AGENT_HANDOFF.md`](./docs/AGENT_HANDOFF.md) | Where the next agent resumes |
 | [`docs/TECHNICAL_PLAN.md`](./docs/TECHNICAL_PLAN.md) | Technical implementation roadmap (phases, DoD, gates) |

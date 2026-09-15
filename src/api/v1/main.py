@@ -1,9 +1,12 @@
 """FastAPI application entry point (bootstrap scaffold).
 
-Only infra endpoints exist. Feature endpoints are added by their topics.
+Infra endpoints plus the bounded synthetic/paper runtime endpoint.
+Feature endpoints are added by their topics.
 """
 
 from fastapi import FastAPI
+
+from src.api.v1.runtime import router as runtime_router
 
 app = FastAPI(
     title="AI Investment Opportunity Agent API",
@@ -11,6 +14,8 @@ app = FastAPI(
     description="API for the AI Investment Opportunity Agent. "
     "Feature endpoints are implemented incrementally per SRS topic.",
 )
+
+app.include_router(runtime_router)
 
 
 @app.get("/health")
