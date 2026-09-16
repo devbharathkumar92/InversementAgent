@@ -19,7 +19,7 @@ import json
 import re
 import subprocess
 from dataclasses import asdict, dataclass
-from pathlib import Path
+from pathlib import Path, PurePath
 from typing import Any
 
 from src.common.requirements.registry import REQ_REGISTRY
@@ -29,6 +29,16 @@ _IMPORT_RE = re.compile(r"^\s*(?:from|import)\s+(src\.[A-Za-z0-9_.]+)", re.MULTI
 
 def _topic_dir_name(topic: str) -> str:
     return f"topic_{int(topic):02d}"
+
+
+def _repo_relative_posix(repo: PurePath, path: PurePath) -> str:
+    """Render a repository-relative path with `/` separators on every OS.
+
+    `PurePath.relative_to()` yields the host's native separator, so on Windows
+    it emits backslashes. Evidence paths are a platform-independent contract,
+    so they are always normalized to POSIX form.
+    """
+    return path.relative_to(repo).as_posix()
 
 
 @dataclass
@@ -68,7 +78,7 @@ def collect_test_files(repo: Path, topic: str) -> list[str]:
     test_dir = repo / "tests" / "unit" / _topic_dir_name(topic)
     if not test_dir.is_dir():
         return []
-    return sorted(str(p.relative_to(repo)) for p in test_dir.glob("test_*.py"))
+    return sorted(_repo_relative_posix(repo, p) for p in test_dir.glob("test_*.py"))
 
 
 def _current_commit(repo: Path) -> str:
