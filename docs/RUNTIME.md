@@ -138,7 +138,10 @@ independent of Redis.
 ## 6. Remaining gaps (not implemented, not claimed)
 
 - **Real-time market data** — the runtime consumes synthetic input only.
-  NSE/BSE acquisition (Topic 10) is not wired to a live feed.
+  The Topic 10 acquisition boundary now exists and can supply the
+  runtime's market fields (`asset`, `price`, `volume`, `fetched_at`)
+  deterministically, but no *live* feed is wired: the only registered
+  provider is the deterministic synthetic one. See `docs/ACQUISITION.md`.
 - **External news integration** — market analysis uses synthetic
   news-impact inputs.
 - **Live broker execution** — no broker adapter, order management, or
